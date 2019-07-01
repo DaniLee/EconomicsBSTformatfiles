@@ -9,14 +9,12 @@ Also see: https://www.andy-roberts.net/res/writing/latex/merlin.pdf
 Since most economics journals use Author-year citation styles, they work best with natbib package, which you need to add to your preamble
 
 ```
-
 \usepackage[authoryear]{natbib}
 \bibliographystyle{JBEE_format}
 ```
 ...and later call...
 
 ```
-
 \bibliography{***}  
 ```
 ... where *** is the name of your bib file.
